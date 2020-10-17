@@ -71,8 +71,10 @@ FROM employees
 WHERE first_name = 'Hercules'
 AND last_name LIKE 'B%'
 ORDER BY last_name asc;
+```
 
 6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
+
 ```sql
 SELECT d.dept_name, de.emp_no, e.last_name, e.first_name
 FROM departments d
